@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<!-- 开启动态方法调用，jsp页面中form标签action的值可以是xxxAction!xxmethod -->
+	<constant name="struts.enable.DynamicMethodInvocation" value="true"></constant>
+	<package name="default" namespace="/" extends="json-default">
+		<action name="buyerLoginAction" class="com.hqyj.action.buyer.BuyerLoginAction">
+			<result name="login">
+				/WEB-INF/jsp/buyer/buyerLogin.jsp
+			</result>
+			<result name="success" type="redirect">
+				buyerAction!home.action
+			</result>
+			<result name="saleSuccess">
+				/WEB-INF/jsp/sale/babyManage.jsp
+			</result>
+		</action>
+
+		<action name="buyerAction" class="com.hqyj.action.buyer.BuyerAction">
+			<result name="home">
+				/WEB-INF/jsp/buyer/shopHome.jsp
+			</result>
+			<result name="detail">
+				/WEB-INF/jsp/buyer/productInfo.jsp
+			</result>
+			<result name="accountManager">
+				/WEB-INF/jsp/buyer/accountManager.jsp
+			</result>
+			<result name="login">
+				/WEB-INF/jsp/buyer/buyerLogin.jsp
+			</result>
+			<result name="shopCart">
+				/WEB-INF/jsp/buyer/shopCart.jsp
+			</result>
+			<result name="orderAffirm">
+				/WEB-INF/jsp/buyer/orderAffirmList.jsp
+			</result>
+			<result name="myOrder">
+				/WEB-INF/jsp/buyer/myOrder.jsp
+			</result>
+		</action>
+
+		<action name="babyManagerAction"
+			class="com.hqyj.action.saler.BabyManagerAction">
+			<result name="salerLogin">
+				/WEB-INF/jsp/sale/saleLogin.jsp
+			</result>
+			<result name="addBaby">
+				/WEB-INF/jsp/sale/addBaby.jsp
+			</result>
+			<result name="saleBaby">
+				/WEB-INF/jsp/sale/wareBabyList.jsp
+			</result>
+			<result name="saleSuccess">
+				/WEB-INF/jsp/sale/babyManage.jsp
+			</result>
+			<result name="saleBabyList">
+				/WEB-INF/jsp/sale/saleBabyList.jsp
+			</result>
+		</action>
+		
+		</package>
+</struts>    

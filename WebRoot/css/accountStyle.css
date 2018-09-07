@@ -1,0 +1,148 @@
+@CHARSET "UTF-8";
+
+.account_banner{
+	height: 60px;
+	width: 100%;
+	background: #ff4401;
+	position: relative;
+	top: 35px;
+}
+
+.account_banner_content{
+	width: 1190px;
+	height: 60px;
+	margin: 0px auto;
+	line-height:60px;
+	font-size:12px;
+}
+.banner_firstpage{
+	text-decoration: none;
+	color: white;
+	font-size:25px;
+	display: inline-block;
+	width:150px;
+	text-align:center;
+	vertical-align:top;
+}
+.account_banner_content img{
+	margin: 10px 0px 0px 0px;
+}
+
+.banner_right{
+	float: right;
+	width:320px;
+	height:60px;
+	position: relative;
+}
+.banner_input{
+	height: 25px;
+	width:250px;
+	border:1px solid #d9d9d9;
+}
+.banner_btn{
+	height: 25px;
+	width: 66px;
+	background: #f5f5f5;
+	position: relative;
+	left:-4px;	
+	top:1px;
+	border: none;
+}
+.body_box{
+	width: 980px;
+	margin: 25px auto;
+	position:relative;
+	top:30px;
+}
+.body_left{
+	width:110px;
+	position: relative;
+	left: 0px;
+	top:0px;
+	float: left;
+}
+.body_left ul{
+	list-style: none;
+	font-size: 12px;
+}
+.body_left ul li{
+	padding: 5px 0px;
+}
+.body_left  a{
+	text-decoration: none;
+}
+
+.body_right{
+	position: relative;
+	left: 	15px;
+	top:0px;
+	width:850px;
+	float:left;
+}
+.address_title{
+	width: 850px;
+	height: 30px;
+	line-height:30px;
+	background: #f3f8fe;
+	font-size: 15px;
+	font-weight: 700;
+	text-indent:20px;
+	color: #0172ba;
+}
+.address_btn{
+	background: #ff4001;
+	width: 68px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	border: none;
+	border-radius:3px;
+	margin-top: 10px;
+	
+}
+.add_table{
+	font-size: 12px;
+}
+.list_talbe{
+	font-size:12px;
+}
+.list_talbe tr th{
+	background: #f2f2f2;
+	border: none;
+}
+.list_talbe tr td{
+	border:none;
+	height: 40px;
+}
+.default_address_box{
+	height: 29px;
+	width: 110px;
+	padding-top:9px;
+}
+.default_box{
+	background: #ffd6cc;
+	width: 60px;
+	height: 20px;
+	border: 1px solid #ff3800;
+	color: #ff3300;
+	border-radius:5px;
+}
+.set_default_box{
+	background: #ffd6cc;
+	width: 60px;
+	height: 20px;
+	border: 1px solid #ff3800;
+	color: #ff3300;
+	border-radius:5px;
+	display: none;
+}
+.set_default_box_on{
+	display: block;
+}
+.set_default_box a{
+	text-decoration: none;
+	color: #ff3300;
+}
+.trim_a{
+	text-decoration: none;
+}

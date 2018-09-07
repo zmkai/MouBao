@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+#contentBox{
+	width: 1190px;
+	margin: 50px auto;
+}
+.confirmAdress{
+	border-bottom: 2px solid #f1f1f1;
+	margin-top: 50px;
+}
+.confirmAdress a{
+	color: blue;
+	float: right;
+	text-decoration: none;
+}
+.ddTitle{
+	font-size: 18px;
+	color: #3c3c3c;
+	font-weight: 600;
+}
+.addressBox{
+	width: 1190px;
+}
+.addressBox tr td{
+	padding-left:50px;
+	line-height: 25px;
+	width: 100%;
+}
+
+.defaultAddress{
+	line-height: 30px;
+	border: 1px solid #ff4400;
+	background: #fff0e8;
+	font-size: 20px;
+	font-weight: 600;
+}
+.submitDingDan{
+	float: right;
+	border: 2px solid #ff4400; 
+	margin-top: 20px;
+	padding: 30px 10px;
+	text-align: right;
+	position: relative;
+}
+#realPrice{
+	font-size: 20px;
+	color: #ff4400;
+}
+.submitBtn{
+	clear:both;	    			/*上面的submitDingDan右浮动，所以需要清除浮动，才能再起一行*/
+	height: 40px;
+	width: 180px;
+	background: #ff4400;
+	color: white;
+	float: right;
+	cursor: pointer;
+	text-align: center;
+	line-height: 40px;
+	
+}

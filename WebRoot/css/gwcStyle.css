@@ -1,0 +1,260 @@
+@CHARSET "UTF-8";
+/*商品列表标题css*/
+.productTitle{
+	width: 1190px;
+	height: 45px;
+	margin: 60px auto 0px;
+	background-color: #f3f3f3;
+}
+.column{
+	float: left;
+	height: 25px;
+	padding: 10px 0px 10px 15px;
+} 
+.t-checkbox{
+	width: 118px;
+	padding: 10px 0px 0px 15px;
+}
+.t-product{
+	width: 235px;	
+}
+.t-size{
+	width: 150px;
+}
+.t-price{
+	width: 155px;
+}
+.t-num{
+	width: 120px;
+}
+.t-money{
+	width: 100px;
+}
+.t-operation{
+	width: 100px;
+}
+
+#contentBox{
+	position: relative;
+	margin: 0px auto;
+	width: 1190px;
+	/*height: 155px;*/
+	margin-top: 20px;
+}
+
+/*商品列表css*/
+.item{
+	width: 1188px;
+	height: 120px;
+	font-size: 12px;
+	color: #666666;
+	border: 1px solid silver ;
+}
+.itemcolumn{
+	float: left;
+	height: 102px;
+	padding: 18px 0px 0px 15px;
+} 
+
+.t-checkbox img{
+	width: 80px;
+	height: 80px;
+}
+.t-checkbox input{
+	vertical-align: top;
+}
+.t-product a{
+	font-size: 12px;
+	color: #525952;
+}
+.t-product a:hover{
+	color: red;
+}
+.t-size p{
+	font-size: 12px;
+	width: 125px;
+	/*三个连用能使超出宽度的文本用省略号代替。前提标签支持width，span不支持width，属于行内元素*/
+	text-overflow: ellipsis;	/*超出部分不能显示的用...代替*/
+	white-space: nowrap;		/*使元素内的内容不能自动换行*/
+	overflow: hidden; 			/*超出隐藏*/
+}
+
+.t-num input{
+	display: inline-block;
+	float: left;
+}
+.num{
+	width: 44px;
+	height: 20px;
+	border: none;
+	outline: none;
+	margin: 0px;
+	border-bottom: 1px solid #cacbcb;
+	border-top: 1px solid #cacbcb;
+	text-align: center;
+	
+}
+.numOperation{
+	width: 16px;
+	height: 18px;
+	background-color: #ffffff;
+	border: 1px solid #cacbcb;
+	margin: 0px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+.numOperation.disable{
+	color: #e9e9e9;
+}
+
+.t-operation a{
+	cursor: pointer;
+}
+
+.t-operation a:hover{
+	color: red;
+}
+
+
+.computeTotal{
+	margin: 20px auto 0px;
+	width: 1190px;
+	border: 1px solid  #f1f1f1;
+	height: 50px;
+	line-height: 50px;
+	color: #666666;
+	font-size: 13px;
+	
+	
+}
+#allselect{
+	margin-left: 15px;
+	margin-right: 10px;
+}
+
+.computeTotal a{
+	margin: 0px 10px;
+}
+.selectProduct{
+	float: right;
+}
+.cmpButtonBox{
+	float: right;
+	background: #e54147;
+	width: 100px;
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+/*mySellList.jsp*/
+.box{
+	width: 1190px;
+	position:relative;
+	top:60px;
+	margin:0px auto;
+}
+.box_left{
+	width: 120px;
+	position: relative;
+	top:0px;
+	left:0px;
+}
+
+.box_left span{
+	font-size: 20px;
+	color:#ff4400;
+	display:inline-block;
+	margin-bottom: 5px;
+}
+.box_left a{
+	text-decoration: none;
+	display: inline-block;
+	margin: 5px 0px;
+}
+
+.box_right{
+	width:1060px;
+	position: relative;
+	top: -110px;
+	left: 122px;
+}
+
+.box_right ul li{
+	list-style: none;
+	float: left;	
+	padding: 15px 0px;
+	font-size: 18px;
+	font-weight: 800;
+	position: relative;
+	z-index: 2;
+}
+.fengexian{
+	position: absolute;
+	top: 55px;
+	width: 1060px;
+	size: 2px;
+}
+.on{
+	color: #ff6000;
+	border-bottom: 2px solid #ff6000;
+}
+.title{
+	width: 1060px;
+	height: 40px;
+	border: 1px solid #e8e8e8;
+	background: #f5f5f5;
+	position: relative;
+	text-align: center;
+}
+
+.baby_item{
+	width:500px;
+}
+.price_item{
+	width:100px;
+	text-align: center;
+}
+.num_item{
+	width:70px;
+	text-align: center;
+}
+.realPrice_item{
+	width: 125px;
+	text-align: center;
+}
+.state_item{
+	width:125px;
+	text-align: center;
+}
+.operation_item{
+	width:140px;
+	text-align: center;
+}
+
+.splist_box{
+	width:1060px;
+	height:500px;
+	position: relative;
+	overflow: auto;
+}
+.splist_box>div{
+	position: absolute;
+	left: 0px;
+	display: none;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+

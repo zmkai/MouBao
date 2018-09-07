@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="default" location="319,152" size="246,267">
+    <action name="buyerLoginAction" location="93,49" size="150,62">
+      <result name="login">
+        <resourceEdge source="login" routing="0" target="buyerLogin.jsp" />
+      </result>
+      <result name="success" />
+    </action>
+    <action name="buyerAction" location="18,118" size="150,146">
+      <result name="home">
+        <resourceEdge source="home" routing="0" target="shopHome.jsp" />
+      </result>
+      <result name="detail">
+        <resourceEdge source="detail" routing="0" target="productInfo.jsp" />
+      </result>
+      <result name="accountManager">
+        <resourceEdge source="accountManager" routing="0" target="accountManager.jsp" />
+      </result>
+      <result name="login">
+        <resourceEdge source="login" routing="0" target="buyerLogin.jsp" />
+      </result>
+      <result name="shopCart">
+        <resourceEdge source="shopCart" routing="0" target="shopCart.jsp" />
+      </result>
+      <result name="orderAffirm">
+        <resourceEdge source="orderAffirm" routing="0" target="orderAffirmList.jsp" />
+      </result>
+    </action>
+    <action name="sellerManagerAction" location="36,51" size="150,40" />
+  </package>
+  <webResource name="buyerLogin.jsp" path="/WEB-INF/jsp/buyer/buyerLogin.jsp" location="50,200" size="150,55" />
+  <webResource name="shopHome.jsp" path="/WEB-INF/jsp/buyer/shopHome.jsp" location="50,350" size="150,55" />
+  <webResource name="productInfo.jsp" path="/WEB-INF/jsp/buyer/productInfo.jsp" location="50,500" size="150,55" />
+  <webResource name="accountManager.jsp" path="/WEB-INF/jsp/buyer/accountManager.jsp" location="350,500" size="150,55" />
+  <webResource name="shopCart.jsp" path="/WEB-INF/jsp/buyer/shopCart.jsp" location="50,650" size="150,55" />
+  <webResource name="orderAffirmList.jsp" path="/WEB-INF/jsp/buyer/orderAffirmList.jsp" location="350,650" size="150,55" />
+</Struts2Diagram>
+

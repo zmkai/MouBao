@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.advertisment_box{
+	width:1200px;
+	margin: 0px auto;
+	padding-top:60px;
+	text-align:center;
+	clear: both;		/*清除浮动。卖家中心宝贝管理，左右浮动。  */
+}
+
+/* 页脚css设置 */
+.footer{
+	clear: both;
+	height: 165px;
+	width: 1200px;
+	margin: 51px auto;
+	color: #f3e6df;
+	padding: 68px 5px;
+	font-size:12px;
+	
+}
+.footer_box{
+	border-bottom:1px solid;
+	border-top:1px solid;
+	border-color: #dddddd;
+	color: #9c9c9c;
+}
+.footer_box a{
+	display:inline-block;
+	margin: 7px 0px;
+	color: #6c6c6c;
+}
+.footer_box a:hover{
+	color: red;
+}
+.footer_box2 a:hover{
+	color: red;
+}
+.footer_box2{
+	color: #9c9c9c;
+}
+.footer_box2 a{
+	display:inline-block;
+	margin: 7px 0px;
+	color: #6c6c6c;
+}
+
+/*校验显示错误信息*/
+.msgDiv{
+	display: inline;
+	color: red;
+	padding-left: 20px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+}
